@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Note-taking App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Note tacker</h1>
+            <textarea id="text" placeholder="Enter note here"></textarea>
+            <div class="color-picker">Select Color:</div>
+                <label for="tomato" id="color">Tomato</label>
+                <input checked type="radio" name="color" value="tomato" id="tomato"></input>
+                <br>
+                <label for="crimson" id="color">Crimson</label>
+                <input type="radio" name="color" value="crimson" id="crimson"></input>
+                <br>
+                <label for="green" id="color">Green</label>
+                <input type="radio" name="color" value="green" id="green"></input>
+                <br>
+                <label for="blue" id="color">Blue</label>
+                <input type="radio" name="color" value="blue" id="blue"></input>
+        </div>
+        <button class="save-btn" id="add">Add</button>
+        <div class="note-container" id="notes">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
